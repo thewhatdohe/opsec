@@ -1,0 +1,9 @@
+[package]
+name = "opsec"
+version = "1.0.0"
+edition = "2024"
+description = "sudo opsec"
+license = "MIT"
+
+[dependencies]
+rand="0.10.3"
