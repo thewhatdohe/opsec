@@ -48,7 +48,7 @@ checksum = "ce5d3ddc6d3fa000eb1536d85e147bfe31aacaba692ed6a876f95cb7c855be78"
 
 [[package]]
 name = "opsec"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "rand",
 ]

@@ -2,7 +2,6 @@ use rand::{RngExt};
 
 fn main() {
     let mut rng = rand::rng();
-    let index: usize = rng.random_range(1..=16);
     let jokes = [
         "Rule #1 of opsec: never talk about opsec",
         "The most secure system is the one that's powered off, unplugged, and buried in concrete",
@@ -21,6 +20,7 @@ fn main() {
         "Hook, Line, and Sinker",
         "No, I will not fix your computer"
     ];
+    let index: usize = rng.random_range(0..jokes.len());
     println!("{}", jokes[index]);
     
 }
